@@ -26,20 +26,20 @@ function NavLinks() {
 export default function Header() {
 
     return(
-        <header className="header border-b border-gray-400 flex justify-between items-center">
-            <div className="header__logo w-[120px] h-[120px] md:w-[250px] md:h-[100px] overflow-hidden">
+        <header className="header border-b border-gray-400 flex justify-between items-center min-h-[100px]">
+            <div className="header__logo mr-2 hidden md:block w-[250px] h-[100px] overflow-hidden">
                 <Link to="/">
                     <img className="logo__img" src={logo} alt="website logo"/>
                 </Link>
             </div>
 
-            <h1 className="header__title text-2xl font-normal">nanndato01のホームページ</h1>
+            <Link to="/" className="header__title text-2xl font-normal mx-8">nanndato01のホームページ</Link>
 
             <nav className="global-nav hidden md:block">
                 <NavLinks />
             </nav>
 
-           <div className="md:hidden">
+           <div className="md:hidden mx-3">
                 <HamburgerMenu NavLists={navLists}/>
            </div>
         </header>

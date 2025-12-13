@@ -98,7 +98,7 @@ pre {
     border-radius: 6px;
     overflow-x: auto;
     margin: 1rem 0;
-    font-family: Consolas, "Courier New", monospace;font-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospacefont-family: Consolas, "Courier New", monospace
+    font-family: Consolas, "Courier New", monospace;
     font-size: 0.95rem;
     line-height: 1.4;
 }
