@@ -1,0 +1,8 @@
+{
+    "title": "Tailwindがデフォルトのスタイルを消すので、CSSで改めて再定義した",
+    "excerpt": "HTMLの主要なタグをCSSで再定義しました。",
+    "author": "nanndato01",
+    "tags": ["HTML", "CSS", "Tailwind"],
+    "published": true,
+    "published_at": "2025-12-12"
+}

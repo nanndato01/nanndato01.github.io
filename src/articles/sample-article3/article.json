@@ -1,0 +1,9 @@
+{
+    "title": "sample article 3",
+    "excerpt": "local test.",
+    "author": "nanndato01",
+    "tags": ["sample tag1", "sample tag3", "notice"],
+    "published": true,
+    "published_at": "2025-12-10",
+    "updated_at": "2300-1-1"
+}
