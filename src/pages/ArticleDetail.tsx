@@ -151,11 +151,11 @@ export default function ArticleDetail() {
                             const id = text.replace(/\s+/g, "-");
                             return <h3 id={id}>{children}</h3>
                         },
-                        code({ node, inline, className, children, ...props }) {
+                        code({ className, children, ...props }) {
                             const match = /language-(\w+)/.exec(className || "");
                             const lang = match?.[1];
 
-                            if (!inline && lang) {
+                            if (lang) {
                                 return (
                                     <CodeBlock
                                         lang={lang}

@@ -12,7 +12,7 @@ interface HamburgerProps {
 }
 
 export default function HamburgerMenu({ NavLists }: HamburgerProps) {
-    const menuRef = useRef<HTMLDivElement>(null);
+    const menuRef = useRef<HTMLButtonElement>(null);
     const [size, setSize] = useState({ width: 0, height: 0 });
     const [open, setOpen] = useState(false);
     const location = useLocation();
