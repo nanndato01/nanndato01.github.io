@@ -13,18 +13,24 @@ import SearchForTag from "./pages/SearchFortag";
 import SearchForKeyword from "./pages/SearchForKeyword";
 import Footer from "./components/Footer";
 
-function App() {
+function RedirectHandler() {
   const navigate = useNavigate();
+
   useEffect(() => {
-    const redirect = sessionStorage.getItem('redirect');
+    const redirect = sessionStorage.getItem("redirect");
     if (redirect) {
-      sessionStorage.removeItem('redirect');
+      sessionStorage.removeItem("redirect");
       navigate(redirect, { replace: true });
     }
   }, [navigate]);
-  
+
+  return null;
+}
+
+function App() {
   return(
     <BrowserRouter>
+    <RedirectHandler />
       <Header/>
       <Layout>
         <Routes>
