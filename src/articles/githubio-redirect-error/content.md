@@ -6,7 +6,7 @@
 
 # 解決方法
 
-## vite.confic.ts
+## /vite.confic.ts
 
 ```ts
 import ...
