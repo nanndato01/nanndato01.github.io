@@ -1,4 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Header from "./components/Header";
 import Layout from "./components/Layout";
 
@@ -12,6 +14,15 @@ import SearchForKeyword from "./pages/SearchForKeyword";
 import Footer from "./components/Footer";
 
 function App() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    const redirect = sessionStorage.getItem('redirect');
+    if (redirect) {
+      sessionStorage.removeItem('redirect');
+      navigate(redirect, { replace: true });
+    }
+  }, [navigate]);
+  
   return(
     <BrowserRouter>
       <Header/>
