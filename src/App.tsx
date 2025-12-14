@@ -29,7 +29,7 @@ function RedirectHandler() {
 
 function App() {
   return(
-    <BrowserRouter>
+    <BrowserRouter basename="/homepage">
     <RedirectHandler />
       <Header/>
       <Layout>
