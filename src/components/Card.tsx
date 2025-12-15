@@ -19,7 +19,7 @@ export default function Card({link, external = false, cover, contain = false, ti
     : "w-full h-full block object-cover";
     const content = (
         <>
-            <div className="w-full md:w-[200px] h-auto md:h-[150px] max-h-[200px] mr-0 mb-[10px] md:mr-[10px] md:mb-0 shrink-0 overflow-hidden">
+            <div className="w-full aspect-[4/3] md:w-[200px] md:h-[150px] max-h-[200px] mr-0 mb-[10px] md:mr-[10px] md:mb-0 shrink-0 overflow-hidden">
                 <img src={cover ?? defaultCover} alt="cover" className={imageClass}/>
             </div>
 
