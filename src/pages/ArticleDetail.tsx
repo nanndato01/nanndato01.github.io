@@ -87,7 +87,7 @@ export default function ArticleDetail() {
                 {article.updated_at && `(最終更新日: ${article.updated_at})`}
             </p>
 
-            <ul className="tag-list flex list-none m-0 p-0">
+            <ul className="tag-list flex flex-wrap list-none m-0 p-0">
                 {article.tags?.map((tag) => (
                     <li key={tag} className="tag-item">
                         <object>
