@@ -80,7 +80,7 @@ export default function ArticleDetail() {
                 <meta name="description" content={article.excerpt ?? ""} />
             </head>
 
-            <h1 className="text-3xl mb-4">{article.title}</h1>
+            <h1 className="text-2xl md:text-3xl mb-4">{article.title}</h1>
 
             <p className="text-gray-400 mb-2">
                 {article.author} / {article.published_at}{" "}
