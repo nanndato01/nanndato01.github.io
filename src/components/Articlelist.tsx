@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import type { Article } from "../types/article";
 import Card from "./Card";
 import "../common.css";

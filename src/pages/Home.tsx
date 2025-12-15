@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { getAllArticles } from "../api/getAllArticles";
 import "../common.css";
 import ArticleList from "../components/Articlelist";
-import Card from "../components/Card";
 
 export default function Home() {
     const [articles, setArticles] = useState<Article[]>([]);
