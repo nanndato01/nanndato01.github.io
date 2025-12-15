@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "deploy": "powershell -Command \"Remove-Item -Recurse -Force docs; vite build --outDir docs\"",
     "lint": "eslint .",
     "preview": "vite preview"
   },
