@@ -22,7 +22,7 @@ export default function Home() {
     return (
         <div>
             <Helmet>
-                <title>Articles | nanndato01のホームページ</title>
+                <title>nanndato01のホームページ</title>
             </Helmet>
 
             <div className="category-list">
